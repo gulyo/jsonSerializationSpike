@@ -29,7 +29,7 @@ namespace jsonSerializationSpike {
 			}
 
 			Console.WriteLine($"Intelligence: {deSerialized.Container.Intelligence.ToString()}");
-			Console.WriteLine($"Intelligence: {deSerialized.Container.Vitality.ToString()}");
+			Console.WriteLine($"Vitality: {deSerialized.Container.Vitality.ToString()}");
 			Console.WriteLine($"Stealth: {deSerialized.ListContainer.Stealth.ToString()}");
 			Console.WriteLine($"Strength: {deSerialized.ListContainer.Strength.ToString()}");
 		}
